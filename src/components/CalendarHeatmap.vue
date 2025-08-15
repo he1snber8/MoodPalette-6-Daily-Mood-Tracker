@@ -1,0 +1,1 @@
+<template>\n  <div class=\"heatmap\">\n    <div v-for=\"day in days\" :key=\"day.date\" :class=\"['cell', day.color]\"></div>\n  </div>\n</template>\n<script>\nexport default { name: 'CalendarHeatmap', props: ['days'] }\n</script>
