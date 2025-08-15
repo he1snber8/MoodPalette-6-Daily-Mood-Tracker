@@ -1,0 +1,1 @@
+<template>\n  <div class=\"mood-selector\">\n    <!-- add more moods as needed -->\n    <button @click=\"select('😊')\">😊</button>\n    <button @click=\"select('😢')\">😢</button>\n  </div>\n</template>\n<script>\nexport default { name: 'MoodSelector', methods: { select(m) { this.$emit('select', m) } } }\n</script>
