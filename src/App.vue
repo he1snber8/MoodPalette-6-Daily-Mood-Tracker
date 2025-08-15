@@ -1,0 +1,1 @@
+<template>\n  <div id=\"app\"></div>\n</template>\n<script>\nexport default { name: 'App' }\n</script>
